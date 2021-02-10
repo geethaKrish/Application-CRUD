@@ -1,0 +1,70 @@
+{
+	"id": "058706be-fe61-1cce-1925-59290432d846",
+	"name": "Assessment-Oredoo",
+	"description": "",
+	"order": [
+		"666b4dca-6e82-20a9-852c-c5a5f6f92a50",
+		"5b72401c-1407-5143-36ca-b377ffae11d0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1612966195622,
+	"owner": "5515738",
+	"public": false,
+	"requests": [
+		{
+			"id": "5b72401c-1407-5143-36ca-b377ffae11d0",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/getApplication/app-1612966137707",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "058706be-fe61-1cce-1925-59290432d846",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8080/getApplication/app-1612966137707",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612966260269,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "666b4dca-6e82-20a9-852c-c5a5f6f92a50",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/storeApplication",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "058706be-fe61-1cce-1925-59290432d846",
+			"data": [],
+			"dataMode": "raw",
+			"name": "CreateApplication",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1612966206070,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"name\":\"MTR\", \r\n\"content\":\"idian Reastaurant\", \r\n\"identity\":\"1234567\",   \r\n\"dob\":\"1990-12-12\",  \r\n\"address\":\"Bangalore , India\", \r\n\"phone\":\"31438457\",  \r\n\"email\":\"geet.myid@gmail.com\", \r\n\"experience\":\"12 years\", \r\n\"interests\":\" --- \", \r\n\"amount\":\"10000.45\",\r\n\"location\":\"Bangalore\", \r\n\"notes\":\"Testing application\"\r\n} \r\n"
+		}
+	]
+}
